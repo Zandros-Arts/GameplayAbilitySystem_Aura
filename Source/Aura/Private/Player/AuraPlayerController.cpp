@@ -2,11 +2,10 @@
 
 
 #include "Player/AuraPlayerController.h"
+
 #include "EnhancedInputSubsystems.h"
 #include "EnhancedInputComponent.h"
 #include "Interaction/EnemyInterface.h"
-
-class UEnhancedInputComponent;
 
 AAuraPlayerController::AAuraPlayerController()
 {
