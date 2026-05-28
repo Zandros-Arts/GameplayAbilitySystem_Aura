@@ -3,11 +3,12 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameplayEffect.h"
+/*#include "GameplayEffect.h"*/
 #include "GameFramework/Actor.h"
 #include "GameplayEffectTypes.h"
 #include "AuraEffectActor.generated.h"
 
+class UAbilitySystemComponent;
 class UGameplayEffect;
 
 UENUM(BlueprintType)
@@ -21,7 +22,7 @@ enum class EEffectApplicationPolicy
 UENUM(BlueprintType)
 enum class EEffectRemovalPolicy
 {
-	RemoveApplyOnEndOverlap,
+	RemoveOnEndOverlap,
 	DoNotRemove
 };
 
